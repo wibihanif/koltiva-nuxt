@@ -1,18 +1,4 @@
-import { defineNuxtConfig } from 'nuxt3'
-
-// https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  build: {
-    postcss: {
-      postcssOptions: {
-        plugins: {
-          tailwindcss: {},
-          autoprefixer: {},
-        },
-      },
-    },
-  },
-  css: [
-    "~/assets/css/tailwind.css"
-  ],
-})
+  devtools: { enabled: true },
+});
