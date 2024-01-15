@@ -88,9 +88,9 @@ const showFilteredTable = () => {
     <button
       @click="showFilteredTable"
       v-else
-      class="bg-blue-400 text-white mr-4 w-[167%] py-4 text-center"
+      class="bg-blue-400 text-white mr-4 w-[154%] py-4 text-center"
     >
-      Filter Table With Most Same Nopol
+      Click to Filter Table With Most Same Nopol
     </button>
   </div>
 </template>
